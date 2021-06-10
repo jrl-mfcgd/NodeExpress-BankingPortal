@@ -3,8 +3,8 @@ const path = require("path");
 const express = require("express");
 
 const { accounts, users } = require("./data");
-const { accountRoutes } = require("./routes/accounts.js");
-const { servicesRoutes } = require("./routes/services.js");
+const  accountRoutes = require("./routes/accounts.js");
+const  servicesRoutes = require("./routes/services.js");
 
 const app = express();
 
